@@ -48,13 +48,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Firebase dependencies
-    implementation (platform("com.google.firebase:firebase-bom:32.0.0"))
+    implementation (platform("com.google.firebase:firebase-bom:33.1.2"))
     implementation ("com.google.firebase:firebase-auth-ktx")
     implementation ("com.google.firebase:firebase-database-ktx")
     implementation ("com.google.firebase:firebase-messaging-ktx")
