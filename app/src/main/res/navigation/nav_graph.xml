@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/chatsFragment">
+    app:startDestination="@id/authFragment">
 
     <fragment
         android:id="@+id/chatsFragment"
@@ -32,5 +32,20 @@
         android:name="com.example.wechat.ui.fragments.ChatFragment"
         android:label="Chat"
         tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.wechat.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.wechat.ui.fragments.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_chatsFragment"
+            app:destination="@id/chatsFragment" />
+    </fragment>
+
 
 </navigation>
