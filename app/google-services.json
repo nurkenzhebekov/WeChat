@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "388887575425",
+    "firebase_url": "https://wechat-59644-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wechat-59644",
+    "storage_bucket": "wechat-59644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388887575425:android:3b4eb0afc518e479b88680",
+        "android_client_info": {
+          "package_name": "com.example.wechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC58_qgrNT9OzVFpWhJNJGRq7q6zjxlG0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
